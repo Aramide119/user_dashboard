@@ -67,15 +67,12 @@
 						============================================= -->
 						<div class="top-links">
 							<ul class="top-links-container">
-								<li class="top-links-item"><a href="#"><i class="fa fa-user
-									"></i>Account</a>
-									<ul class="top-links-sub-menu">
-										<li class="top-links-item"><a href="profile.html">View Profile</a></li>
-										<li class="top-links-item"><a href="login-modern-1.html">Sign In</a></li>
-										<li class="top-links-item"><a href="register.html">Sign Out</a></li>
-									</ul>
+								<li class="top-links-item"><a href="userprofile.html"><i class="fa fa-user
+									"></i>View Profile</a>
 								</li>
-								<li class="top-links-item"><a href="#"><i class="fa fa-shopping-cart"></i>Cart</a></li>
+								<li class="top-links-item"><a href="register.html"><i class="fa-sharp fa-solid fa-plus"></i>Create Account</a></li>
+								<li class="top-links-item"><a href="login-modern-1.html"><i class="fa-sharp fa-solid fa-right-to-bracket"></i>Sign In</a></li>
+
 							</ul>
 						</div><!-- .top-links end -->
 
@@ -88,62 +85,17 @@
 		<!-- Header
 		============================================= -->
 		<header id="header" class="header-size-sm" data-sticky-shrink="false">
-			<div class="container">
-				<div class="header-row">
-
-					<!-- Logo
-					============================================= -->
-					<div id="logo" class="ms-auto ms-lg-0 me-lg-auto">
-						<a href="demo-construction.html">
-							<img class="logo-default" srcset="images/journal logo.jpg" src="images/journal logo.jpg" alt="Logo">
-						</a>
-					</div><!-- #logo end -->
-
-					<div class="header-misc d-none d-lg-flex">
-
-						<ul class="header-extras">
-							<li>
-								<i class="i-plain bi-telephone m-0"></i>
-								<div class="he-text">
-									Call Us
-									<span>(1) 22 54215821</span>
-								</div>
-							</li>
-							<li>
-								<i class="i-plain bi-envelope m-0"></i>
-								<div class="he-text">
-									Email Us
-									<span>info@canvas.com</span>
-								</div>
-							</li>
-							<li>
-								<i class="i-plain bi-clock m-0"></i>
-								<div class="he-text">
-									We'are Open
-									<span>Mon - Sat, 10AM to 6PM</span>
-								</div>
-							</li>
-						</ul>
-
-					</div>
-
-				</div>
-			</div>
+		
 
 			<div id="header-wrap">
 				<div class="container">
-					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center">
-
-						<div class="header-misc">
-
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="uil uil-search"></i><i class="bi-x-lg"></i></a>
-							</div><!-- #top-search end -->
-
-						</div>
-
+					<div class="header-row justify-content-between flex-row-reverse flex-lg-row">
+                     <div id="logo" class="ms-auto ms-lg-0 me-lg-auto align-content-start bg-dark" >
+						       <a href="demo-construction.html">
+							      <img class="logo-default" srcset="images/journal logo.jpg" src="images/journal logo.jpg" alt="Logo">
+						       </a>
+						    </div>
+						
 						<div class="primary-menu-trigger">
 							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
 								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
@@ -153,21 +105,17 @@
 						<!-- Primary Navigation
 						============================================= -->
 						<nav class="primary-menu with-arrows">
+							
 
 							<ul class="menu-container">
 								<li class="menu-item current"><a class="menu-link" href="demo-construction.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="aboutus.html"><div>About Us</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="about.html"><div>About Us</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="faqs-4.html"><div>Faq</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="demo-construction-contact.html"><div>Contact</div></a></li>
-								<li class="menu-item"><a class=" btn btn-info" href="demo-construction-contact.html"><div>Publish Article</div></a></li>
+								<li class="menu-item"><a class=" btn bg-dark text-white" href="demo-construction-contact.html"><div>Publish Article</div></a></li>
 							</ul>
 
 						</nav><!-- #primary-menu end -->
-
-						<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form>
-
 					</div>
 				</div>
 			</div>
@@ -219,20 +167,9 @@
 
 										<div class="w-100"></div>
 
-										<div class="col-md-8 form-group">
+										<div class="col-md-12 form-group">
 											<label for="template-contactform-subject">Subject <small>*</small></label>
 											<input type="text" id="template-contactform-subject" name="subject" value="" class="required form-control">
-										</div>
-
-										<div class="col-md-4 form-group">
-											<label for="template-contactform-service">Services</label>
-											<select id="template-contactform-service" name="template-contactform-service" class="form-select">
-												<option value="">-- Select One --</option>
-												<option value="Wordpress">Wordpress</option>
-												<option value="PHP / MySQL">PHP / MySQL</option>
-												<option value="HTML5 / CSS3">HTML5 / CSS3</option>
-												<option value="Graphic Design">Graphic Design</option>
-											</select>
 										</div>
 
 										<div class="w-100"></div>
@@ -247,7 +184,7 @@
 										</div>
 
 										<div class="col-12 form-group">
-											<button class="button button-3d m-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+											<button class="btn m-0 text-white" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit" style="background-color:#000">Send Message</button>
 										</div>
 									</div>
 
