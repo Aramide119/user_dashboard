@@ -12,6 +12,36 @@
 
     	<!-- Font Icons -->
 	<link rel="stylesheet" href="css/font-icons.css">
+
+  <style type="text/css">
+    .icon-header{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   }
+
+   
+@media screen and (max-width: 767px) {
+  /* .icon-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  } */
+  .icon-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  h5{
+     font-size:13px ; 
+    }
+}
+  </style>
   </head>
   <body>
 		
@@ -47,6 +77,9 @@
               <li>
                 <a href="openedaccess.html" ><i class="fa-sharp fa-solid fa-list"></i> Open Access 2</a>
                 </li>
+                <li>
+                  <a href="closeaccess.html" ><i class="fa-sharp fa-solid fa-list"></i> Close Access 2</a>
+                  </li>
                 <li>
                   <a href="submit_article.html" ><i class="fa-sharp fa-solid fa-list"></i>  Submit Article</a>
                 </li>
@@ -117,7 +150,7 @@
           </div>
           
           <div class="card-body px-5 pb-5">
-            <div>
+            <!-- <div>
                 <div class="d-flex">
                  <div class="ms-3">
                     <i class="fa-sharp fa-solid fa-file-pdf"></i>
@@ -150,7 +183,28 @@
                  </div>
  
                 </div>
-            </div>
+            </div> -->
+
+            <ul class="icon-header">
+              <li><i class="fa-sharp fa-solid fa-file-pdf"></i>
+                <span>Get PDF</span></li>
+
+              <li>  <i class="fa-sharp fa-solid fa-envelope"></i>
+                    <span>Email</span></li>
+
+              <li>  <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                    <span>Share</span></li>
+
+              <li> <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                    <span>Citation Alert</span></li>
+
+              <li> <i class="fa-sharp fa-solid fa-quote-right"></i>
+                    <span>Get Citation</span></li>
+
+              <li><i class="fa-sharp fa-solid fa-cloud-arrow-up"></i>
+                <span>Save Article</span></li>
+            </ul>
+           
                <hr>
            
              <div class="mb-3" style="line-height: 25px;">
