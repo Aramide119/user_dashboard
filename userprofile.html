@@ -12,6 +12,37 @@
 
     	<!-- Font Icons -->
 	<link rel="stylesheet" href="css/font-icons.css">
+
+  <style type="text/css">
+      .links li{
+         list-style-type: none;
+      }
+
+
+      @media screen and (max-width: 767px) {
+  /* .icon-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  } */
+  .links {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .item {
+  flex-basis: 48%;
+  margin-bottom: 1rem;
+}
+
+  h5{
+     font-size:13px ; 
+    }
+}
+  </style>
   </head>
   <body>
 		
@@ -103,13 +134,117 @@
         </nav>
 
         <div class="card shadow">
-          <div class="card-header">
-            <h2 class="mb-4">Sidebar #01</h2>
-          </div>
+          <!-- <div class="card-header">
+            <ul class="d-flex flex-column flex-md-row align-items-center ms-sm-4 justify-content-md-between links">
+                <li class=" mt-md-3 typeTab" name="#tab1" > <a href="" class="text-dark" style="font-size: medium;">Article Under Review</a></li>
+                <li class=" mt-md-3"> <a href="" class="text-dark typeTab" name="#tab2" style="font-size: medium;">Accepted Article</a></li>
+                <li class=" mt-md-3" > <a href="" class="text-dark typeTab" name="#tab3" style="font-size: medium;"></a></li>
+                <li class=" mt-md-3"> <a href="" class="text-dark typeTab" name="#tab4" style="font-size: medium;">Article History</a></li>
+            </ul>
+          </div> -->
           
-          <div class="card-header px-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="card-body px-4 mt-4">
+          <!-- Tabs navs -->
+            <ul class="nav nav-tabs nav-fill mb-3" id="ex1" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active text-dark" id="ex2-tab-1" data-mdb-toggle="tab" href="#ex2-tabs-1"
+                  role="tab" aria-controls="ex2-tabs-1"  aria-selected="true">          
+                    Article Under Review
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link text-dark" id="ex2-tab-2" data-mdb-toggle="tab" href="#ex2-tabs-2"         role="tab" aria-controls="ex2-tabs-2" aria-selected="false" >
+                Accepted Article        
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                 <a class="nav-link text-dark" id="ex2-tab-3" data-mdb-toggle="tab" href="#ex2-tabs-3"
+                   role="tab" aria-controls="ex2-tabs-3" aria-selected="false" >             
+                   Rejected Article         
+                 </a>              
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link text-dark" id="ex2-tab-4" data-mdb-toggle="tab" href="#ex2-tabs-4"
+                  role="tab" aria-controls="ex2-tabs-4" aria-selected="false" >             
+                  Article History        
+                </a>              
+             </li>                    
+            </ul>                     
+          <!-- Tabs navs -->                      
+
+            <!-- Tabs content -->
+              <div class="tab-content" id="ex2-content">
+                <div  class="tab-pane fade show active" id="ex2-tabs-1" role="tabpanel"    aria-labelledby="ex2-tab-1">
+                  <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health |  <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 |  <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
+                  <p>Four ways to manage your health</p>
+      
+                  <hr>
+                   
+                  <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
+                  <p>Four ways to manage your health</p>
+      
+                  <hr>
+                   
+                  <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
+                  <p>Four ways to manage your health</p>           
+               </div>
+
+
+                  <div class="tab-pane fade" id="ex2-tabs-2" role="tabpanel" aria-labelledby="ex2-tab-2"  >   
+                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health |  <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 |  <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
+                    <p>Four ways to manage your health</p>
+                  
+                    <hr>
+                               
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
+                    <p>Four ways to manage your health</p>
+                  
+                     <hr>
+                               
+                      <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
+                      <p>Four ways to manage your health</p>
+                  </div>
+
+
+                  <div class="tab-pane fade"id="ex2-tabs-3" role="tabpanel" aria-labelledby="ex2-tab-3" >
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health |  <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 |  <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
+                    <p>Four ways to manage your health</p>
+        
+                    <hr>
+                     
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
+                    <p>Four ways to manage your health</p>
+        
+                    <hr>
+                     
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
+                    <p>Four ways to manage your health</p>
+                    </div>
+                 
+
+                    <div class="tab-pane fade" id="ex2-tabs-4" role="tabpanel" aria-labelledby="ex2-tab-4"  > 
+                    <p class="d-flex justify-content-between"><span><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition </span>
+                      <span><button class="btn btn-small btn-success">Status:Accepted</button></span>
+                      </p>
+                      <p>Four ways to manage your health</p>
+        
+                    <hr>
+                     
+                    <p class="d-flex justify-content-between"><span><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition </span>
+                    <span><button class="btn btn-small btn-danger">Status:Rejected</button></span>
+                    </p>
+                    <p>Four ways to manage your health</p>
+        
+                    <hr>
+                     
+                    <p class="d-flex justify-content-between"><span><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition </span>
+                      <span><button class="btn btn-small btn-success">Status:Accepted</button></span>
+                      </p>
+                      <p>Four ways to manage your health</p>
+                    </div>
+                   </div>
+                            <!-- Tabs content -->
+
           </div>
       </div>
 		</div>
@@ -117,6 +252,11 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
     <script src="js/main.js"></script>
+
+   
   </body>
 </html>
