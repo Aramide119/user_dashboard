@@ -56,7 +56,7 @@
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
           <div class="d-flex flex-column align-items-center position-relative">
-            <img src="../images/avatar2.png" class="img logo rounded-circle mb-2"
+            <img src="images/avatar2.png" class="img logo rounded-circle mb-2"
                 height="80px" width="80px" style="border-radius: 50%; object-fit: cover;">
             <a type="button" class="p-0 m-0 position-absolute bottom-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#editpicture">
                 <i class="fa fa-pen-to-square"></i>
@@ -114,23 +114,24 @@
                 </div>
             </div> -->
             <ul class="list-unstyled components mb-5">
-              <li >
-                    <a href="demo-construction.html"><i class="fa-sharp fa-solid fa-house"></i> Home</a>
+              <li>
+                <a href="editprofile.html"><i class="fa-sharp fa-solid fa-user"></i> Profile</a>
+              </li>
+              <li class="active">
+                <a href="userprofile.html"><i class="fa-sharp fa-solid fa-users"></i> Lists</a>
+              </li>
+                <li >
+                    <a href="demo-construction.html"><i class="fa-sharp fa-solid fa-house"></i> Sales</a>
                   </li>
-                <li class="active">
-                  <a href="userprofile.html"><i class="fa-sharp fa-solid fa-users"></i> Profile</a>
+                <li>
+                    <a href="articlereview.html"> <i class="fa-sharp fa-solid fa-repeat"></i> Rent</a>
+                </li>
+                
+                <li>
+                  <a href="#"><i class="fa-sharp fa-solid fa-layer-group"></i> Lease</a>
                 </li>
                 <li>
-                  <a href="editprofile.html"><i class="fa-sharp fa-solid fa-user"></i> Edit Profile</a>
-                </li>
-                <li>
-                    <a href="articlereview.html"> <i class="fa-sharp fa-solid fa-repeat"></i> Article Under Review</a>
-                </li>
-                <li>
-                  <a href="articlelist.html" ><i class="fa-sharp fa-solid fa-list"></i>  Article List</a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-sharp fa-solid fa-layer-group"></i> General Settings</a>
+                  <a href="articlelist.html" ><i class="fa-sharp fa-solid fa-list"></i>Joint Venture</a>
                 </li>
                 <li>
                   <a href="#"><i class="fa-sharp fa-solid fa-right-from-bracket"></i> Log Out</a>
@@ -154,14 +155,14 @@
             </button> -->
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav navbar-nav ml-auto">
+              <!-- <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link btn btn-dark btn-small text-white" href="submit_article.html" style="height: 40px; width: 140px;">
                       Create Article
                     </a>
                 </li>
                 
-              </ul>
+              </ul> -->
             </div>
           </div>
         </nav>
@@ -182,147 +183,208 @@
               <li class="nav-item" role="presentation">
                 <a class="nav-link active text-dark" id="ex2-tab-1" data-mdb-toggle="tab" href="#ex2-tabs-1"
                   role="tab" aria-controls="ex2-tabs-1"  aria-selected="true">          
-                    Article Under Review
+                    Sales
                 </a>
               </li>
               <li class="nav-item" role="presentation">
                 <a class="nav-link text-dark" id="ex2-tab-2" data-mdb-toggle="tab" href="#ex2-tabs-2"         role="tab" aria-controls="ex2-tabs-2" aria-selected="false" >
-                Reviewed Article        
+                    Rent       
                 </a>
               </li>
               <li class="nav-item" role="presentation">
                 <a class="nav-link text-dark" id="ex2-tab-3" data-mdb-toggle="tab" href="#ex2-tabs-3"         role="tab" aria-controls="ex2-tabs-3" aria-selected="false" >
-                Accepted Article        
+                  Lease    
                 </a>
               </li>
               <li class="nav-item" role="presentation">
                  <a class="nav-link text-dark" id="ex2-tab-4" data-mdb-toggle="tab" href="#ex2-tabs-4"
                    role="tab" aria-controls="ex2-tabs-4" aria-selected="false" >             
-                   Rejected Article         
+                   Joint Venture
                  </a>              
-              </li>
-              <li class="nav-item" role="presentation">
-                <a class="nav-link text-dark" id="ex2-tab-5" data-mdb-toggle="tab" href="#ex2-tabs-5"
-                  role="tab" aria-controls="ex2-tabs-5" aria-selected="false" >             
-                  Article History        
-                </a>              
-             </li>                    
+              </li>                 
             </ul>                     
           <!-- Tabs navs -->                      
 
             <!-- Tabs content -->
               <div class="tab-content" id="ex2-content">
                 <div  class="tab-pane fade show active" id="ex2-tabs-1" role="tabpanel"    aria-labelledby="ex2-tab-1">
-                  <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health |  <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 |  <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                  <p>Four ways to manage your health</p>
+                  <div class="table-responsive">
+                    <table class="table table-striped ">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">S/N</th>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Locality</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col"></th>
 
-               
-      
-                  <hr>
-                   
-                  <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                  <p>Four ways to manage your health</p>
-      
-                  <hr>
-                   
-                  <p class="d-flex justify-content-between"><span><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition </span>
 
-                    <span><a href="comment.html" class="btn btn-dark comment_btn" style="height: 40px; width: 180px;">
-                      View Comment <span class="badge badge-light">4</span>
-                    </a></span>
-                    </p>
-                    <p>Four ways to manage your health</p>        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <!-- <button class="btn btn-danger btn btn-small">
+                                                  Active
+                                                </button> -->
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+
+                                        </tr>
+                                </tbody>
+                            
+                                <tbody>
+                                    <tr>
+                                        <td colspan="6" class="text-center text-danger">No data yet</td>
+                                    </tr>
+                                </tbody>
+
+                            
+                    </table>
+                </div>   
                </div>
 
 
                <div  class="tab-pane fade " id="ex2-tabs-2" role="tabpanel"    aria-labelledby="ex2-tab-2">
-                <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health |  <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 |  <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                <p>Four ways to manage your health</p>
+                <div class="table-responsive">
+                  <table class="table table-striped ">
+                              <thead>
+                                  <tr>
+                                  <th scope="col">S/N</th>
+                                  <th scope="col">Title</th>
+                                  <th scope="col">Locality</th>
+                                  <th scope="col">Price</th>
+                                  <th scope="col">Status</th>
+                                  <th scope="col"></th>
 
-                <div class="justify-content-end">
-                  <a href="comment.html" class="btn btn-sm btn-dark" style="height: 40px; width: 140px;">View Comment</a>
-                  <a href="edit_article.html" class="btn btn-sm btn-success" style="height: 40px; width: 100px;">Edit Article</a>
-                 
-              </div>
-    
-                <hr>
-                 
-                <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                <p>Four ways to manage your health</p>
 
-                <div class="justify-content-end">
-                  <a href="comment.html" class="btn btn-sm btn-dark" style="height: 40px; width: 140px;">View Comment</a>
-                  <a href="edit_article.html" class="btn btn-sm btn-success" style="height: 40px; width: 100px;">Edit Article</a>
-                 
-              </div>
-    
-                <hr>
-                 
-                <p class="d-flex justify-content-between"><span><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition </span>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                      <tr>
+                                          <th scope="row"></th>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td>
+                                              <!-- <button class="btn btn-danger btn btn-small">
+                                                Active
+                                              </button> -->
+                                          </td>
+                                          <td>
+                                              
+                                          </td>
 
-                  </p>
-                  <p>Four ways to manage your health</p>   
-                  
-                  <div class="justify-content-end">
-                    <a href="comment.html" class="btn btn-sm btn-dark" style="height: 40px; width: 140px;">View Comment</a>
-                    <a href="edit_article.html" class="btn btn-sm btn-success" style="height: 40px; width: 100px;">Edit Article</a>
-                   
-                </div>
-             </div>
+                                      </tr>
+                              </tbody>
+                          
+                              <tbody>
+                                  <tr>
+                                      <td colspan="6" class="text-center text-danger">No data yet</td>
+                                  </tr>
+                              </tbody>
+
+                          
+                  </table>
+              </div>   
+              </div> 
 
 
 
                   <div class="tab-pane fade" id="ex2-tabs-3" role="tabpanel" aria-labelledby="ex2-tab-3"  >   
-                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health |  <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 |  <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                    <p>Four ways to manage your health</p>
-                  
-                    <hr>
-                               
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                    <p>Four ways to manage your health</p>
-                  
-                     <hr>
-                               
-                      <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                      <p>Four ways to manage your health</p>
+                    <div class="table-responsive">
+                      <table class="table table-striped ">
+                                  <thead>
+                                      <tr>
+                                      <th scope="col">S/N</th>
+                                      <th scope="col">Title</th>
+                                      <th scope="col">Locality</th>
+                                      <th scope="col">Price</th>
+                                      <th scope="col">Status</th>
+                                      <th scope="col"></th>
+  
+  
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                          <tr>
+                                              <th scope="row"></th>
+                                              <td></td>
+                                              <td></td>
+                                              <td></td>
+                                              <td>
+                                                  <!-- <button class="btn btn-danger btn btn-small">
+                                                    Active
+                                                  </button> -->
+                                              </td>
+                                              <td>
+                                                  
+                                              </td>
+  
+                                          </tr>
+                                  </tbody>
+                              
+                                  <tbody>
+                                      <tr>
+                                          <td colspan="6" class="text-center text-danger">No data yet</td>
+                                      </tr>
+                                  </tbody>
+  
+                              
+                      </table>
+                  </div>   
                   </div>
 
 
                   <div class="tab-pane fade"id="ex2-tabs-4" role="tabpanel" aria-labelledby="ex2-tab-4" >
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health |  <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 |  <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                    <p>Four ways to manage your health</p>
-        
-                    <hr>
-                     
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                    <p>Four ways to manage your health</p>
-        
-                    <hr>
-                     
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition</p>
-                    <p>Four ways to manage your health</p>
-                    </div>
-                 
-
-                    <div class="tab-pane fade" id="ex2-tabs-5" role="tabpanel" aria-labelledby="ex2-tab-5"  > 
-                    <p class="d-flex justify-content-between"><span><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition </span>
-                      <span><button class="btn btn-small btn-success">Status:Accepted</button></span>
-                      </p>
-                      <p>Four ways to manage your health</p>
-        
-                    <hr>
-                     
-                    <p class="d-flex justify-content-between"><span><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition </span>
-                    <span><button class="btn btn-small btn-danger">Status:Rejected</button></span>
-                    </p>
-                    <p>Four ways to manage your health</p>
-        
-                    <hr>
-                     
-                    <p class="d-flex justify-content-between"><span><i class="fa-sharp fa-solid fa-calendar-days"></i> Jun 27, 2018 11:30 | <i class="fa-sharp fa-solid fa-folders"></i> Category: Health | <i class="fa-sharp fa-solid fa-bookmark"></i> ID:QWETH678 | <i class="fa-sharp fa-solid fa-book-bookmark"></i> 7th Edition </span>
-                      <span><button type="button" class="btn btn-small btn-success">Status:Accepted</button></span>
-                      </p>
-                      <p>Four ways to manage your health</p>
+                    <div class="table-responsive">
+                      <table class="table table-striped ">
+                                  <thead>
+                                      <tr>
+                                      <th scope="col">S/N</th>
+                                      <th scope="col">Title</th>
+                                      <th scope="col">Locality</th>
+                                      <th scope="col">Price</th>
+                                      <th scope="col">Status</th>
+                                      <th scope="col"></th>
+  
+  
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                          <tr>
+                                              <th scope="row"></th>
+                                              <td></td>
+                                              <td></td>
+                                              <td></td>
+                                              <td>
+                                                  <!-- <button class="btn btn-danger btn btn-small">
+                                                    Active
+                                                  </button> -->
+                                              </td>
+                                              <td>
+                                                  
+                                              </td>
+  
+                                          </tr>
+                                  </tbody>
+                              
+                                  <tbody>
+                                      <tr>
+                                          <td colspan="6" class="text-center text-danger">No data yet</td>
+                                      </tr>
+                                  </tbody>
+  
+                              
+                      </table>
+                  </div>   
                     </div>
                    </div>
                             <!-- Tabs content -->
