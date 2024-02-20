@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Edit Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+    	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/font-icons.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="p-4 pt-5">
+          <div class="d-flex flex-column align-items-center position-relative">
+            <img src="../images/avatar2.png" class="img logo rounded-circle mb-2"
+                height="80px" width="80px" style="border-radius: 50%; object-fit: cover;">
+            <a type="button" class="p-0 m-0 position-absolute bottom-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#editpicture">
+                <i class="fa fa-pen-to-square"></i>
+            </a>
+        </div>
+        <div class="modal fade" id="editpicture" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div
+                              class="d-flex justify-content-between align-items-center border-bottom px-4 pt-3">
+                              <h3 class="fs">Personal Details</h3>
+                              <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                                  aria-label="Close"></button>
+                          </div>
+                          <form action="" method="POST"
+                              enctype="multipart/form-data">
+                              <div class="modal-body p-4">
+                                  <div class="mb-3">
+                                      <label class="form-label">Profile Picture</label>
+                                      <input type="file" value=""
+                                          name="profile_picture"
+                                          class="form-control"
+                                          name="name">
+                                          <span class="invalid-feedback" id="message" role="alert">
+                                              <strong></strong>
+                                          </span>
+                                  </div>
+
+                              </div>
+                              <div class="modal-footer">
+                                  <button class="btn btn-primary">Update</button>
+                                  <button type="button" class="btn btn-danger btn-outline-none"
+                                      data-bs-dismiss="modal">Close</button>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+        </div>      
+       <h5 class="my-3 text-white text-center">Anthony Gloria</h5>
+            <p class=" mb-1 text-white text-center">ID:DE123456</p>
+            <p class=" mb-4 text-white text-center">folawale119@gmail.com</p>
+
+            <!-- <div class="px-3 border-top">
+              <div class="px-3">      
+                <div class="d-flex flex-column" style=" word-break: break-word">
+                    <small>Business Name:</small>
+                    <h6>Classic Zobo</h6>        
+                    <small>Address:</small>
+                    <h6>No 9j popoola street old ife road ibadan</h6>
+                    <small>Bye Line</small>
+                    <h6>Not Set</h6>
+                    <small>About Me</small>
+                    <p>Hi, I'm Kudirat, your go-to for classic Zobo! </p>
+                </div>
+            </div> -->
+            <ul class="list-unstyled components mb-5">
+              <li >
+                    <a href="demo-construction.html"><i class="fa-sharp fa-solid fa-house"></i> Home</a>
+                  </li>
+                <li class="active">
+                  <a href="userprofile.html"><i class="fa-sharp fa-solid fa-users"></i> Profile</a>
+                </li>
+                <li>
+                  <a href="editprofile.html"><i class="fa-sharp fa-solid fa-user"></i> Edit Profile</a>
+                </li>
+                <li>
+                    <a href="articlereview.html"> <i class="fa-sharp fa-solid fa-repeat"></i> Article Under Review</a>
+                </li>
+                <li>
+                  <a href="articlelist.html" ><i class="fa-sharp fa-solid fa-list"></i>  Article List</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-sharp fa-solid fa-layer-group"></i> General Settings</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-sharp fa-solid fa-right-from-bracket"></i> Log Out</a>
+                </li>
+            </ul>
+	      </div>
+    	</nav>
+
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+            <!-- <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button> -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul> -->
+            </div>
+          </div>
+        </nav>
+
+        <div class="main-panel">
+          <div class="content-wrapper">
+              <div class="row">
+                      <div class="col-md-12 grid-margin">
+                          <div class="card">
+                              <div class="card-body">
+                              <h4 class="card-title">My Profile</h4>
+                              <form class="forms-sample" method="POST" action="">
+                                <div class="row">
+                                  <div class="form-group col-md-6">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputName1" name="name" placeholder="Name" >
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                      <label for="exampleInputEmail1">Email address</label>
+                                      <input type="email" class="form-control" name="email" id="exampleInputEmail1" placeholder="Email">
+                                  </div>
+                                </div>
+                                  <div class="row">
+                                    <div class="form-group col-md-6">
+                                      <label for="phone">Phone Number</label>
+                                      <input type="tel" class="form-control" name="phone" id="exampleInputPassword1" placeholder="Phone Number">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="address">Address</label>
+                                        <input type="text" class="form-control" name="address" id="exampleInputConfirmPassword1">
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="row">
+                                    <div class="form-group col-md-6">
+                                      <label for="city">City</label>
+                                      <input type="text" class="form-control" name="city" id="exampleInputConfirmPassword1">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                      <label for="state">State</label>
+                                      <input type="text" class="form-control" name="state" id="exampleInputConfirmPassword1">
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="form-group col-md-6">
+                                    <label for="country">Country</label>
+                                    <input type="text" class="form-control" name="country" id="exampleInputConfirmPassword1">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                      <label for="business_name">Business Name</label>
+                                      <input type="text" class="form-control" name="business_name" id="exampleInputConfirmPassword1">
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="byline">Byline</label>
+                                    <input type="text" class="form-control" name="byline" id="exampleInputConfirmPassword1" >
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="about">About</label>
+                                    <input type="text" class="form-control" name="about" id="exampleInputConfirmPassword1" >
+                                  </div>
+                                  <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                              </form>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-12 grid-margin pt-5">
+                          <div class="card">
+                              <div class="card-body">
+                              <h4 class="card-title">Change Password</h4>
+                              <form class="forms-sample" method="POST" action="">
+                                  <div class="form-group">
+                                      <label class="form-label">Current Password </label>
+                                              <input type="password" class="form-control" name="old_password">
+                                                  <span class="invalid-feedback" id="message" role="alert">
+                                                      <strong></strong>
+                                                  </span>
+                                  </div>
+                                  <div class="form-group">
+                                  <label for="exampleInputPassword1">New Password</label>
+                                  <input type="password" class="form-control" name="password">
+                                                  <span class="invalid-feedback" id="message" role="alert">
+                                                      <strong></strong>
+                                                  </span>
+                                  </div>
+                                  <div class="form-group">
+                                  <label for="exampleInputConfirmPassword1">Confirm Password</label>
+                                  <input type="password" class="form-control" name="password_confirmation">
+                                  </div>
+                                  <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                              </form>
+                              </div>
+                          </div>
+                      </div>
+              </div>
+          </div> 
+		</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
